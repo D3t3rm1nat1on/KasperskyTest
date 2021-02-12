@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KasperskyTest", "KasperskyTest\KasperskyTest.csproj", "{5280C310-F173-4DE4-9C7B-7FF24BD318E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KasperskyTest.NUnit", "KasperskyTest.NUnit\KasperskyTest.NUnit.csproj", "{FDA4A6F1-DDF1-4E55-B6BE-CAA459109464}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5280C310-F173-4DE4-9C7B-7FF24BD318E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5280C310-F173-4DE4-9C7B-7FF24BD318E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5280C310-F173-4DE4-9C7B-7FF24BD318E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5280C310-F173-4DE4-9C7B-7FF24BD318E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDA4A6F1-DDF1-4E55-B6BE-CAA459109464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDA4A6F1-DDF1-4E55-B6BE-CAA459109464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDA4A6F1-DDF1-4E55-B6BE-CAA459109464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDA4A6F1-DDF1-4E55-B6BE-CAA459109464}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
