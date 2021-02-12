@@ -21,16 +21,16 @@ namespace KasperskyTest
 
         public void ProcessFile(string fileName)
         {
+            if (fileName == null)
+                throw new ArgumentNullException(nameof(fileName));
+
             string fileFormat = GetFileFormat(fileName);
+            
             if (ProcessMethod.ContainsKey(fileFormat))
-            {
                 ProcessMethod[fileFormat].Invoke();
-            }
             else
-            {
-                throw new Exception(
+                throw new KeyNotFoundException(
                     $"Ошибка с файлом: '{fileName}'\nНевозможно обработать данный формат: '{fileFormat}'");
-            }
         }
 
         private string GetFileFormat(string fileName)
@@ -48,7 +48,6 @@ namespace KasperskyTest
             // очень
             // интересная
             // реализация
-            
         }
 
         private static void ProcessTxt()
@@ -57,7 +56,6 @@ namespace KasperskyTest
             // очень
             // интересная
             // реализация
-
         }
 
         private static void ProcessHtml()
@@ -66,7 +64,6 @@ namespace KasperskyTest
             // очень
             // интересная
             // реализация
-
         }
     }
 }
